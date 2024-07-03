@@ -27,4 +27,19 @@
     <li>Install Composer:
         <pre><code>composer install</code></pre>
     </li>
+    <li>Salin file <code>.env.example</code> dan buat file <code>.env</code>:
+        <pre><code>cp .env.example .env</code></pre>
+    </li>
+    <li>Generate kunci aplikasi Laravel:
+        <pre><code>php artisan key:generate</code></pre>
+    </li>
+    <li>Jalankan migrasi database (jika diperlukan):
+        <pre><code>php artisan migrate</code></pre>
+    </li>
+    <li>Jalankan server Laravel:
+        <pre><code>php artisan serve</code></pre>
+    </li>
+    <li>Jalankan scheduler untuk fungsi cron job:
+        <pre><code>php artisan schedule:work</code></pre>
+    </li>
 </ol>
