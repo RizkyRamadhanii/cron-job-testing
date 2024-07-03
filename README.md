@@ -9,3 +9,9 @@
 
 ## Cron Job Testing
 Pada tahap pengujian ini, saya sedang mempelajari dokumentasi cron job di Laravel. Saya menguji penggunaan cron job dengan menggunakan data pengguna, dimana jika kolom 'email_verified_at' kosong dalam waktu 5 detik, maka data pengguna akan dihapus secara otomatis.
+
+## Instalasi
+1. Clone repository ini:
+    ```bash
+    git clone [https://github.com/RizkyRamadhanii/FE-Fundamental-MSIBxDicoding.git](https://github.com/RizkyRamadhanii/cron-job-testing.git)
+    ```
